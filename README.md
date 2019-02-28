@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/alimirferdos/python-regex-zero-to-hero/master/Poster.png)
 
-This is a quick introduction to regex in python. It's not a simple regex reference nor a complicated one. 
+This is a quick introduction to regex in python. It's not a simple regex reference nor a complicated one. I have put a great deal of attention in providing real-world examples.
 
 I have gathered and summarized what I've learned from different references about this topic so I think it can be used as a place to get what you need for most use cases.
 
