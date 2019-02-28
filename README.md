@@ -1,12 +1,32 @@
 # A Quick zero-to-hero Guide to regex in Python
 
 ![](https://raw.githubusercontent.com/alimirferdos/python-regex-zero-to-hero/master/Poster.png)
-
-This is a quick introduction to regex in python. It's not a simple regex reference nor a complicated one. I have put a great deal of attention in providing real-world examples.
+This is a quick introduction to regex in python. It's not a simple regex reference nor a complicated one. 
 
 I have gathered and summarized what I've learned from different references about this topic so I think it can be used as a place to get what you need for most use cases.
 
 It has also been used as a lecture note for 2 lectures I gave at K. N. Toosi University of Technology.
+# Table of contents
+
+-   [1. Introduction to regex & Python Methods](https://github.com/alimirferdos/python-regex-zero-to-hero#1-introduction-to-regex--python-methods)
+	- [Why to Use Regex](https://github.com/alimirferdos/python-regex-zero-to-hero#why-to-use-regex)
+	- [Using it in Python](https://github.com/alimirferdos/python-regex-zero-to-hero#using-it-in-python)
+	- [Python Methods](https://github.com/alimirferdos/python-regex-zero-to-hero#python-methods)
+- [2. Basic Metacharacters](https://github.com/alimirferdos/python-regex-zero-to-hero#2-basic-metacharacters)
+- [3. Character classes](https://github.com/alimirferdos/python-regex-zero-to-hero#3-character-classes)
+- [4. Groups](https://github.com/alimirferdos/python-regex-zero-to-hero#4-groups)
+	-  [Named Groups](https://github.com/alimirferdos/python-regex-zero-to-hero#named-groups)
+	- [Non-capturing groups](https://github.com/alimirferdos/python-regex-zero-to-hero#non-capturing-groups)
+- [6. Look-around Assertion](https://github.com/alimirferdos/python-regex-zero-to-hero#6-look-around-assertion)
+- [7. Real-World Examples](https://github.com/alimirferdos/python-regex-zero-to-hero#7-real-world-examples)
+	- [1. Reordering the Date](https://github.com/alimirferdos/python-regex-zero-to-hero#1-reordering-the-date)
+	- [2. Simple Email Extraction](https://github.com/alimirferdos/python-regex-zero-to-hero#2-simple-email-extraction)
+	- [3. Password Strength](https://github.com/alimirferdos/python-regex-zero-to-hero#3-password-strength)
+	- [4. Advanced URL Matching](https://github.com/alimirferdos/python-regex-zero-to-hero#4-advanced-url-matching)
+	- [5. Simple HTML Tag Matching](https://github.com/alimirferdos/python-regex-zero-to-hero#5-simple-html-tag-matching)
+	- [6. Finding Duplicate Words](https://github.com/alimirferdos/python-regex-zero-to-hero#6-finding-duplicate-words)
+- [8. Where to Go from here](https://github.com/alimirferdos/python-regex-zero-to-hero#8-where-to-go-from-here)
+- [9. Contribution](https://github.com/alimirferdos/python-regex-zero-to-hero#9-contribution)
 # 1. Introduction to regex & Python Methods
 In this section we'll see how regex can be used in python.
 ### Why to Use Regex: 
@@ -273,7 +293,7 @@ if match:
 # Match 1
 # Match 2
 ```
-# 5. Look-around Assertion
+# 6. Look-around Assertion
 Look-ahead and look-behind assertions are available in both positive and negative form. They are used for advanced searches.
 They do not consume characters in the string, but only "assert" whether a match is possible or not.
 
@@ -313,7 +333,7 @@ Excluding another filename extension is now easy; simply add it as an alternativ
 ### Negative look-behind assertion `(?<!...)`
 `(?<!r)d`matches a d only if is not preceded by an r, but r will not be part of the overall regex match
 
-# 6. Real-World Examples
+# 7. Real-World Examples
 In this section we'll check out some practical examples. The examples start from easy and go harder as we proceed.
 ## 1. Reordering the Date
 Given a string of dates where "day" comes after "month", we want to reorder it so "day" comes before "month"!
@@ -389,12 +409,12 @@ Here we are using word boundaries. `\b` mainly checks positions. It matches when
 For example Given the phrase "Regular expressions are awesome", the pattern `"\bare\b"` matches "are". 
 So we're matching every word character followed by a non-word character (in our case space) and then check if the matched word is already present or not.
 
-# 7. Where to Go from here
+# 8. Where to Go from here
 This was a starter guide to regex and can help you out in most cases but there are more advanced concepts to learn. 
 [Awesome-regex](https://github.com/aloisdg/awesome-regex) has a great list of Regex libraries, tools, frameworks, books and more! So definitely check it out!
 I also used [this](https://www.sitepoint.com/demystifying-regex-with-practical-examples/)  for some of the examples.
 
-## Contribution
+## 9. Contribution
 -   Star the repo
 -   Open pull request 
 -   Tell someone who needs this
