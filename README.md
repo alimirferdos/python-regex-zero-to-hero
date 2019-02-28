@@ -419,4 +419,4 @@ I also used [this](https://www.sitepoint.com/demystifying-regex-with-practical-e
 -   Star the repo
 -   Open pull request 
 -   Tell someone who needs this
-- Give feedback at [![](https://img.shields.io/twitter/follow/alimirferdos.svg?label=alimirferdos&style=plastic)](https://github.com/badges/shields/graphs/contributors)
+- Give feedback at [![](https://img.shields.io/twitter/follow/alimirferdos.svg?label=alimirferdos&style=plastic)](https://twitter.com/alimirferdos)
